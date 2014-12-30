@@ -27,7 +27,8 @@ Install Grunt command line tools and bower:
 
 Inside the project's directory, install project components:
 
-	$ npm install
+	$ sudo npm install
+	$ bower install
 
 ## To run tests:
 	
