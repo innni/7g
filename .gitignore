@@ -7,7 +7,6 @@
 .DS_Store
 components
 css
-index.html
 resume.html
 node_modules
 test/coverage
