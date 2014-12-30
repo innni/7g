@@ -1,7 +1,7 @@
 ## View Project
 
-Get a server running:
-
+Fetch repo and get a server running:
+	$ git clone https://github.com/innni/7g.git
 	$ cd 7g
 	$ python -m SimpleHTTPServer
 
