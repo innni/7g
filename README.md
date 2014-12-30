@@ -7,6 +7,8 @@ Get a server running:
 
 Access http://0.0.0.0:8000/dist
 
+View main code (backbone): https://github.com/innni/7g/tree/master/js
+
 If you want to modify code, set up the dev environment first.
 
 ## Dev Env Dependencies
