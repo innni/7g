@@ -1,11 +1,14 @@
 ## View Project
 
-Get a server running:
+Fetch repo and get a server running:
 
+	$ git clone https://github.com/innni/7g.git
 	$ cd 7g
 	$ python -m SimpleHTTPServer
 
 Access http://0.0.0.0:8000/dist
+
+View main code (backbone): https://github.com/innni/7g/tree/master/js
 
 If you want to modify code, set up the dev environment first.
 
