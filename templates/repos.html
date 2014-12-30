@@ -1,0 +1,17 @@
+
+<% _.each(repos.models, function(repo){ %>
+<div class="repo">
+	<span class="title">Name:</span> 
+	<%= repos.cleanTitle(repo.get('name')) %> <br />
+
+	<span class="title">Fork Count:</span> 
+	<%= repo.get('forks') %> <br />
+
+	<span class="title">Language:</span> 
+	<%= repo.get('language') %> <br />
+
+	<span class="title">Created Date:</span> 
+	<%= repos.cleanDate(repo.get('created_at')) %> 
+</div>
+	
+<% }); %>
